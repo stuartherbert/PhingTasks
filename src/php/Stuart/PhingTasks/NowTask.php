@@ -58,7 +58,7 @@ class NowTask extends Task
 
     public function setName($name)
     {
-            $this->name = $name;
+        $this->name = $name;
     }
 
 	public function setFormat($format)
@@ -70,7 +70,7 @@ class NowTask extends Task
 	{
         if (!isset($this->name))
         {
-                throw new BuildException("You must specify the name of the property to set", $this->getLocation());
+            throw new BuildException("You must specify the name of the property to set", $this->getLocation());
         }
 		$now = date($this->format);
 
