@@ -1,0 +1,27 @@
+{
+	"name": "stuart/phingtasks",
+	"description": "a collection of useful additional Phing tasks",
+	"keywords": [
+		"phing tasks"
+	],
+	"homepage": "https://github.com/stuartherbert/PhingTasks/",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Stuart Herbert",
+			"email": "stuart@stuartherbert.com",
+			"homepage": "http://www.stuartherbert.com",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/stuartherbert/PhingTasks/issues",
+		"source": "https://github.com/stuartherbert/PhingTasks/"
+	},
+	"autoload": {
+		"psr-0": { "" : "src/php/" }
+	},
+	"require-dev": {
+		"phix/autoloader": "4.*"
+	}
+}
