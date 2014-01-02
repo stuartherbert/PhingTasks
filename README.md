@@ -1,6 +1,8 @@
 # PhingTasks
 
-[PhingTasks](http://code.stuartherbert.com/php/PhingTasks) is a collection of useful tasks for use with [Phing](http://phing.info), the PHP development automation tool.
+[PhingTasks](http://code.stuartherbert.com/php/phingtasks) is a collection of useful tasks for use with [Phing](http://phing.info), the PHP development automation tool.
+
+Some of these tasks were originally bundled as part of the Phix project; they've been broken out into a separate project so that they can be more widely reused.
 
 ## Installation
 
